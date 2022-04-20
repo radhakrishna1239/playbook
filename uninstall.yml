@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+   - name: Un-install httpd
+     package: "name=httpd state=absent"
+     become: yes
