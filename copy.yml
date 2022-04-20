@@ -1,0 +1,4 @@
+---
+- hosts: all
+  name: copying file from /var/to /tmp task name
+  tasks: scr=/etc/fstab dest=/tmp/
