@@ -1,0 +1,7 @@
+---
+- hosts: vara-sys-40-223
+  tasks:
+   - name: Install httpd
+     package: "name=httpd state=latest"
+     become: yes
+
